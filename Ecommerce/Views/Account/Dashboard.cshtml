@@ -1,0 +1,19 @@
+﻿
+
+<script>
+  
+        if (localStorage.getItem("UserName") == undefined || localStorage.getItem("UserName") == null || localStorage.getItem("UserName") == ""){
+            window.location.href = '@Url.Action("Login","Account")';
+
+        }
+  
+</script>
+<div style="width:100%;height:500px;display:block;position:relative;">
+    <div style="position:relative;width:200px;height: 500px;left:0px;top:0px;bottom:0px;background:black;color:white">
+        @Html.Partial("~/views/common/_partialsidebar.cshtml")
+    </div>
+    <div style="position:absolute;left:200px;right:0px;top:0px;bottom:0px;background:gray;color:white">
+        Content Area
+    </div>  
+
+</div>
