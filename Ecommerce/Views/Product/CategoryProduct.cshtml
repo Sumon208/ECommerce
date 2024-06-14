@@ -1,0 +1,30 @@
+﻿@{
+    string CategoryName = Context.Request.Query["CategoryName"].ToString();
+
+
+}
+
+<script>
+    var CategoryName = '@CategoryName';
+    $(document).ready(function () {
+       
+        ProductController.ListCategoryProduct(CategoryName);
+    })
+</script>
+<div class="container-xl">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Products</h2>
+            <div id="myCarousel" class="carousel">
+                <div class="carousel-inner">
+                    <div class="item carousel-item active">
+                        <div class="row" id="dvproductList">
+                            <div class="col col-sm-3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

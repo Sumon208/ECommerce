@@ -28,3 +28,4 @@ F:\DOT_NET\Ostad\Project\Ecommerce\Ecommerce\obj\Debug\net8.0\refint\Ecommerce.d
 F:\DOT_NET\Ostad\Project\Ecommerce\Ecommerce\obj\Debug\net8.0\Ecommerce.pdb
 F:\DOT_NET\Ostad\Project\Ecommerce\Ecommerce\obj\Debug\net8.0\Ecommerce.genruntimeconfig.cache
 F:\DOT_NET\Ostad\Project\Ecommerce\Ecommerce\obj\Debug\net8.0\ref\Ecommerce.dll
+F:\DOT_NET\Ostad\Project\Ecommerce\Ecommerce\obj\Debug\net8.0\Ecommerce.sourcelink.json
