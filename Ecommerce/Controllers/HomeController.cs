@@ -15,7 +15,7 @@ namespace Ecommerce.Controllers
 
         public IActionResult Index()
         {
-            List<Account> accounts = Account.ListUsers();  
+            List<Account> accounts = Account.ListUsers();
             return View();
         }
 
